@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            background-color: red;
+            color: white;
+            display: block;
+            width: 300px;
+            font-size: 20px;
+            padding: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+
+        div:hover {
+            color: #ff0707;
+            font-size: 20px;
+            transition: 0.8s all;
+        }
+
+        .lista {
+            border: 2px solid #6acfcfe1;
+            border-radius: 4px;
+            width: 250px;
+            display: flex;
+            margin: 40px auto;
+            background-color: #62d3d3;
+            box-shadow: 10px 10px 10px #499e9eb7;
+        }
+
+        ul {
+            display: inline-block;
+        }
+
+        li {
+            padding: 4px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        li:hover {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse em cima para poder ler. 
+            <p> Surpresa!!!!</p>
+    </div>
+    <p>Fim do exemplo.</p>
+
+    <section class="lista">
+        <ul type="none">
+            <li><a href="#"> Itens 1</a></li>
+            <li><a href="#"> Itens 2</a></li>
+            <li><a href="#"> Itens 3</a></li>
+            <li><a href="#"> Itens 4</a></li>
+        </ul>
+        <ul type="none">
+            <li><a href="#"> Itens 5</a></li>
+            <li><a href="#"> Itens 6</a></li>
+            <li><a href="#"> Itens 7</a></li>
+            <li><a href="#"> Itens 8</a></li>
+        </ul>
+    </section>
+</body>
+</html>

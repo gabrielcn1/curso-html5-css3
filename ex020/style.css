@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #b3c4dbe8;
+}
+
+/* Inicio cabeçalho */
+
+#cabeçalho {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+#estilo-cabeçalho {
+    width: 640px;
+    height: 10px;
+    background-color: #3f51b5;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase ;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#paragrafo-cabeçalho {
+    text-align: justify;
+}
+
+/* Inicio formulario profissao */
+
+#formulario-profissao {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.profissao-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 6px;
+}
+
+/* Inicio formulario sexo */
+
+#formulario-sexo {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.sexo-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 5px;
+}
+
+/* Inicio formulario estado */
+
+#formulario-estado {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.estado-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 5px;
+}
+
+/* Inicio formulario idade */
+
+#formulario-idade {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.idade-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 5px;
+}
+
+/* Inicio formulario tempo */
+
+#formulario-tempo {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.tempo-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 5px;
+}
+
+/* Inicio formulario estudo */
+
+#formulario-estudo {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.estudo-lab {
+    display: block;
+    padding: 10px 25px;
+    margin: -28px 1px 5px;
+}
+
+/* Inicio formulario objetivo */
+
+#formulario-objetivo {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px;  
+}
+
+.objetivo-lab {
+    text-decoration: none;
+    border: 1px solid #5d69aaaf;
+    border-radius: 7px;
+    box-shadow:1px 1px 2px #6972a8af;
+}
+
+.objetivo-lab:hover {
+    background-color: #8c92b167;
+}
+
+/* Inicio formulario dificuldade */
+
+#formulario-dificuldade {
+    width: 640px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 24px;
+    border-radius: 7px; 
+}
+
+.dificuldade-lab {
+    text-decoration: none;
+    border: 1px solid #5d69aaaf;
+    border-radius: 7px;
+    box-shadow:1px 1px 2px #6972a8af;
+}
+
+.dificuldade-lab:hover {
+    background-color: #8c92b167;
+}
+
+/* Botão */
+
+
+#botao1 {
+    width: 100px;
+    height: 40px;
+    margin: auto 600px;
+    background-color: #334ddd;
+    border: 1px solid #3f51b5;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px #273aa5de;
+}
+
+.link-botao {
+    text-decoration: none;
+}
+
+.link-botao:visited {
+    color: white;
+}
+

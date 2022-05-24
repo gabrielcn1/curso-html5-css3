@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* CSS do cabeçalho */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #585859;
+}
+
+header {
+    display: flex;
+    background-color: #585859;
+    border-radius: 12px;
+    box-shadow:7px 9px 5px #3e3e3fda;
+}
+
+.logo-atletico {
+    margin: 20px 0 0 400px; 
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 30px;
+    display: flex;
+    margin: 85px 0 0 250px;
+    padding: 0px;
+}
+
+li:hover {
+    font-size: 31px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Início do CSS Página principal*/
+
+main {
+    width: 50%;
+    background-color: #ffffffd7;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 7px 7px 7px #969697c5;
+    background-image: linear-gradient(360deg, #ffffff, rgba(206, 206, 206, 0.568));
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 30px 0px 50px 0px ;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 3px 1px rgba(160, 151, 27, 0.432);
+}
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+th {
+    background-color: rgba(204, 192, 20, 0.904);
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ffffff80;
+}
+
+tr {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+td, tr {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 5%;
+}
+
+.imagem {
+    width: 2%;
+    padding: 4px;
+}
+
+.competicao:hover {
+    text-decoration: underline;
+}
+
+.titulos {
+    width: 2%;
+    font-weight: bold;
+}
+
+.temporadas {
+    width: 10%;
+    padding: 4px;
+    text-align: center
+}
+
+.destaque {
+    background-color: darkgoldenrod;
+}

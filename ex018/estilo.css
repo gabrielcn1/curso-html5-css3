@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Início do CSS do cabeçalho */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #585859;
+}
+
+header {
+    display: flex;
+    background-color: #585859;
+    border-radius: 12px;
+    box-shadow:13px 16px 10px #3e3e3fda;
+}
+
+.logo-atletico {
+    margin: 20px 0 0 400px; 
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 30px;
+    display: flex;
+    margin: 85px 0 0 250px;
+    padding: 1px;
+    color: black
+}
+
+li:hover {
+    font-size: 31px;
+    text-decoration: underline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+/* Final do CSS do cabeçalho */
+/* Início do CSS Página principal*/
+
+main {
+    width: 850px;
+    height: 850px;
+    background-color: rgba(255, 255, 255, 0.87);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 9px #2f2f30dc;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:1px 1px 2px #000000cc;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow:1px 1px 2px #4b4a4acc;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px 10px 45px;
+    text-shadow:1px 1px 1px #5c5b5b96;
+    font-size: 20px;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.temporadas {
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: #585859;
+    box-shadow: 13px -10px 10px #3b3b3b8e;
+    border-radius: 12px;
+}
+
+.copyright {
+    font-size: 25px;
+    text-align: center;
+}
+
