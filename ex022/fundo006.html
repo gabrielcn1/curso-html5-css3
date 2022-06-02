@@ -7,18 +7,32 @@
     <title>Posicionando Imagens</title>
     <style>
         body {
+            /* 
             height: 100vh;
             font-family: Arial, Helvetica, sans-serif;
             background-color: gray;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*
+                Shorthand - Background
+                
+                color > image > position > repeat > [size] > attachament 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            /* A shortHand do Background-size ainda não é valida para os navegadores  */
         }
 
         main {
             background-color: white;
-            width: 600px;
+            max-width: 600px;
             padding: 15px;
             text-align: justify;
             border: 2px solid black;
