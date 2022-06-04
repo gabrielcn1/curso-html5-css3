@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('imagens/1LO_CAPA_DESTAQUE_DITE_PAPERS_CAI.webp');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 96vh;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+}
+.container {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+header img {
+    width: 40%;
+    cursor: pointer;
+}
+
+.container-menu a{
+    width: 60%;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 0px 0px 0.5px white;
+}
+
+.container-menu a:hover {
+    color: #0002f5;
+    transition: 0.1s;
+}
+
+.container-main {
+    max-width: 500px;
+    height: 530px;
+    margin: 194px 250px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.363);
+}
+
+.container-imagem img {
+    width: 200px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.container-titulo h1 {
+    margin-left: 29px;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    color: #1c0051;;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-formulario {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.container-formulario input {
+    padding: 0px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0273be23;
+}
+
+.container-formulario label {
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 10px;
+}
+
+#senha {
+    margin-left: -4px;
+}
+
+#email {
+    width: 404px;
+}
+
+#lembrar-me {
+    width: 30px;
+}
+
+#lembrar {
+    width: 20px;
+}
+
+.container-formulario button {
+    width: 400px;
+    text-align: center;
+    margin-top: 53px;
+    margin-left: 32px;
+    padding: 20px;
+    border-radius: 30px;
+    border:none;
+    background-color: #0002f5;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
