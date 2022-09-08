@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes Telas: acima 1200px
 */
 
-@media print {
+@media print { /* IMPRESSÃO */
     * {
         font-family: 'Courier New', Courier, monospace;
     }
